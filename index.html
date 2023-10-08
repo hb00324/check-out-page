@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="check.css">
+    <script src="https://kit.fontawesome.com/a0adcd3fa8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Checkout</h1>
+    </div>
+
+    <div class="wrap">
+        <!-- =====================input begin=====input begin========input begin=====input begin-->
+        <div class="input-wrap">
+            <h2>Contact infomation</h2>
+            <div class="main-content">
+                <div class="item">
+                    <p>E-mail</p>
+                    <i class="fa-solid fa-envelope"></i><input type="email" placeholder="Enter your email...">
+                </div>
+                <div class="item">
+                    <p>Phone</p>
+                    <i class="fa-solid fa-phone"></i><input type="tel" placeholder=" Enter your phone...">
+                </div>
+            </div>
+            <div class="sec-content">
+                <h2>Shipping address</h2>
+                <div class="item">
+                    <p>Full Name</p>
+                    <i class="fa-solid fa-circle-user"></i><input type="text" placeholder="Enter your email...">
+                </div>
+                <div class="item">
+                    <p>address</p>
+                    <i class="fa-solid fa-house"></i><input type="text" placeholder=" your address..">
+                </div>
+                <div class="item">
+                    <p>city</p>
+                    <i class="fa-solid fa-city"></i><input type="text" placeholder="your city..">
+                </div>
+                <div class="content">
+                    <div class="item">
+                        <p>country</p>
+                        <i class="fa-solid fa-earth-americas"></i><input type="text" placeholder="your country..">
+                    </div>
+                    <div class="item">
+                        <p>Postal code</p>
+                        <i class="fa-solid fa-envelopes-bulk"></i><input type="text" placeholder="your Postal code..">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="saveInfo">
+                    <p>Save this information for next time</p>
+                </div>
+            </div>
+            <a href="#"><button>continue</button></a>
+        </div>
+        <!-- =====================input end=====input end========input end=====input end-->
+        <!-- =====================check begin=====check begin========check begin=====check begin-->
+        <div class="check-out">
+            <div class="check-list">
+                <div class="img-wrap">
+                    <div class="item">
+                        <div class="img-1">
+                            <img src="photo1.png" alt="item image">
+                        </div>
+                        <div class="text-wrap">
+                            <p>Vintage Backbag</p>
+                            <p>$54.99 <span>$94.99</span></p>
+                            <div class="info">
+                                <button class="plusBtn">+</button>
+                                <p>1</p><button id="minusBtn">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img-1">
+                            <img src="photo2.png" alt="item image">
+                        </div>
+                        <div class="text-wrap">
+                            <p>Vintage Backbag</p>
+                            <p>$54.99 <span>$94.99</span></p>
+                            <div class="info">
+                                <button id="plusBtn">+</button>
+                                <p>1</p><button class="minusBtn">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calculate padding" id="Shipping">
+                        <p>Shipping</p>
+                        <p>$19</p>
+                    </div>
+                    <div class="calculate" id="Tota;">
+                        <p>Total</p>
+                        <p>$148.98</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- =====================check end=====check end========check end=====check end-->
+    </div>
+    <footer>
+        <p>created by <span>hb00324</span> - devChallenges.io</p>
+    </footer>
+</body>
+
+</html>
